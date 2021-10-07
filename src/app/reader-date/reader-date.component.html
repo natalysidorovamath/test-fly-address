@@ -1,0 +1,11 @@
+
+
+ 
+ <div class="row">
+     <div class="col-md-7">
+      <app-currency-list (onChanged)="onChanged($event)"></app-currency-list>
+     </div>
+     <div class="col-md-5">
+         <app-currency-detail [chooseCurrency]="selectedCurrency"></app-currency-detail>
+    </div>
+ </div>

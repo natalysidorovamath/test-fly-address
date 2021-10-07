@@ -1,0 +1,25 @@
+
+    <div class="row">
+        <div class="col-xs-12">
+          <a
+           style="cursor :pointer;"
+            class="list-group-item clearfix"
+            *ngFor="let currency of chooseCurrency">
+           
+            <div class="row">
+                <div class="col-xs-5">
+              <h4 class="list-group-item-heading">{{ currency.Name}}</h4>
+              </div>
+              <div class="col-xs-5">
+                <p class="list-group-item-text">{{ currency.Value }}</p>
+              </div>
+              
+
+                
+                  
+            </div>
+          </a>
+         
+        </div>
+   
+
